@@ -1,12 +1,12 @@
 {
-  "name": "prettify",
+  "name": "ghom-prettify",
   "version": "1.0.0",
-  "description": "client prettier",
+  "description": "prettier extension for cast language to parsers and parse using async.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["prettier", "discord", "markdown"],
   "author": "ghom",
   "license": "ISC",
   "dependencies": {
