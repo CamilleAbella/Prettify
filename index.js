@@ -1,22 +1,4 @@
 const prettier = require("prettier");
-const php = require("@prettier/plugin-php");
-const pug = require("@prettier/plugin-pug");
-const ruby = require("@prettier/plugin-ruby");
-const xml = require("@prettier/plugin-xml");
-const apex = require("prettier-plugin-apex");
-const elm = require("prettier-plugin-elm");
-const kotlin = require("prettier-plugin-kotlin");
-const packagePrettier = require("prettier-plugin-package");
-const gotemplate = require("prettier-plugin-go-template");
-const jsdoc = require("prettier-plugin-jsdoc");
-const properties = require("prettier-plugin-properties");
-const packagejson = require("prettier-plugin-packagejson");
-const solidity = require("prettier-plugin-solidity");
-const pkg = require("prettier-plugin-pkg");
-const svelte = require("prettier-plugin-svelte");
-const sh = require("prettier-plugin-sh");
-const tailwind = require("prettier-plugin-tailwind");
-const java = require("prettier-plugin-java");
 
 /**
  * @param {string} code
@@ -50,26 +32,6 @@ module.exports = async function (code, lang, options = {}) {
       useTabs: false,
       ...options,
       parser,
-      plugins: [
-        php,
-        pug.plugin,
-        ruby,
-        xml,
-        apex,
-        elm,
-        kotlin,
-        packagePrettier,
-        gotemplate,
-        jsdoc,
-        properties,
-        packagejson,
-        solidity,
-        pkg,
-        svelte,
-        sh,
-        tailwind,
-        java,
-      ],
     });
   } catch (error) {
     throw error;
