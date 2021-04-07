@@ -1,7 +1,7 @@
 {
   "name": "ghom-prettify",
-  "version": "2.0.0",
-  "description": "Prettier extension for cast language to parsers and parse using async.",
+  "version": "2.0.1",
+  "description": "Prettier extension for cast language to parsers and parse.",
   "main": "dist/index.js",
   "types": "dist",
   "scripts": {
