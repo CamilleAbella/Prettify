@@ -1,0 +1,29 @@
+{
+  "name": "ghom-prettify",
+  "version": "2.0.0",
+  "description": "Prettier extension for cast language to parsers and parse using async.",
+  "main": "dist/index.js",
+  "types": "dist",
+  "scripts": {
+    "test": "node test",
+    "format": "prettier --write src",
+    "build": "tsc"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "keywords": [
+    "prettier",
+    "discord",
+    "markdown"
+  ],
+  "author": "ghom",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.2.3",
+    "typescript": "^4.2.3"
+  }
+}
